@@ -1,0 +1,92 @@
+*{
+    margin: 0%;
+    padding: 0%; 
+}
+header{
+    height: 20vh;
+}
+hr{
+    background-color: rgb(83, 77, 77);
+    height: .1vh;
+    width: 100%;
+}
+header nav {
+    height: 25%;
+    display: flex;
+    align-items: right;
+    justify-content: end;
+}
+div{
+    display: flex;
+    justify-content: end;
+}
+ul{
+    margin: 0 15px 0;
+    display: flex;
+    justify-content: center;
+    float: right;
+}
+li{
+    margin: 10px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: darkgreen;
+    background-color: white;
+    text-align: right;
+}
+main{
+    height: 70vh;
+    display: flex;
+    background: url(../página/hero.jpg);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+.msj{
+    color: white;
+}
+.msj1{
+    font-size: 2.7;
+    text-align: left;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-shadow: black;
+    font-weight: bold;
+}
+.msj2{
+    font-size: 3em;
+    text-align: left;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-shadow: black;
+    font-weight: bold;
+}
+
+footer{
+    height: 15vh;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(112, 69, 4);
+    text-shadow: black;
+    font-weight: 900;
+    font-style: arial;
+
+}
+main p{
+    width: 60%;
+    text-align: right;
+    font-size: 2.5em;
+}
+footer p{
+
+    text-align: center;
+    font-size: 18px;
+}
+
